@@ -43,7 +43,7 @@ weight = 4
     lineNos = true
     lineNumbersInTable = false
     noClasses = true
-    style = "pastie"
+    style = "base16-snazzy"
     tabWidth = 4
 
 [params]
