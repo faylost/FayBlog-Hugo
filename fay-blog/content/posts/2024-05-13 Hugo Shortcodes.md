@@ -17,7 +17,8 @@ keywords:
 
 
 效果：
-![[Pasted image 20240513172316.png]]
+![image.png](https://raw.githubusercontent.com/faylost/Blog-Pic/main/20240514112018.png)
+
 ## gist
 
 ```java
