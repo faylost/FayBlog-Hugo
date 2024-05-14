@@ -17,7 +17,8 @@ keywords:
 
 
 效果：
-![image.png](https://raw.githubusercontent.com/faylost/Blog-Pic/main/20240514112018.png)
+![image.png](https://img.i-fay.com/blog-pic/2024/05/b6a151c15bb8f27e76abc816bf8c0e6b.png)
+
 
 ## gist
 
