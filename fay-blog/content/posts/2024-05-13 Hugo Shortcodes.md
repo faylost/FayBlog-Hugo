@@ -1,5 +1,5 @@
 ---
-title: Hugo自带短代码 Shortcodes
+title: Hugo 自带短代码 Shortcodes
 date: 2024-05-13
 tags:
   - Hugo
