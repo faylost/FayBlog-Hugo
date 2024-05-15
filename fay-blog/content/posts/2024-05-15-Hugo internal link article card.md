@@ -42,7 +42,7 @@ keywords:
 
 ![image.png](https://img.i-fay.com/blog-pic/2024/05/78f2b705aad9a386336d89f3e7e9ec67.png)
 
-==样式 CSS 代码需自行设置==
+样式 CSS 代码需自行设置
 ## 使用方式：
 
 ```java
