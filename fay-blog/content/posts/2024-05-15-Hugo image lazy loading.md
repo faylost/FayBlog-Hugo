@@ -13,7 +13,7 @@ keywords:
 ---
 官方说明 [#render-hook-templates](https://gohugo.io/getting-started/configuration-markup/#render-hook-templates)，Hugo v0.62+
 
-对 md 内的链接（link）和图像（image）自定义渲染，只需在主题新建 `layouts/_default/_markup/render-image.html`
+<p align="left">对 md 内的链接（link）和图像（image）自定义渲染，只需在主题新建 `layouts/_default/_markup/render-image.html`</p>
 
 ```html
 layouts/_default
