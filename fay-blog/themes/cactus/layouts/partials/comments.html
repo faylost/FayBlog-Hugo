@@ -1,22 +1,17 @@
-{{ if (not (isset .Site.Params "comments")) }}
-  {{ .Scratch.Set "enable_comments" false }}
-{{ else if (isset .Params "comments") }}
-  {{ .Scratch.Set "enable_comments" .Params.comments }}
-{{ else if (isset .Site.Params.Comments "enabled") }}
-  {{ .Scratch.Set "enable_comments" .Site.Params.Comments.Enabled }}
-{{ else }}
-  {{ .Scratch.Set "enable_comments" true }}
-{{ end }}
-
-{{ $enable_comments := .Scratch.Get "enable_comments" }}
-{{ if $enable_comments }}
-  <div class="blog-post-comments">
-    {{ if (or (not (isset .Site.Params.Comments "engine")) (eq .Site.Params.Comments.Engine "disqus")) }}
-      {{ partial "comments/disqus.html" . }}
-    {{ else if eq .Site.Params.Comments.Engine "utterances" }}
-      {{ partial "comments/utterances.html" . }}
-    {{ else if eq .Site.Params.Comments.Engine "cactus_comments" }}
-      {{ partial "comments/cactus_comments.html" . }}
-    {{ end }}
-  </div>
-{{ end }}
+<div class="blog-post-comments">
+  <script src="https://giscus.app/client.js" 
+    data-repo="faylost/Blog-Comment" 
+    data-repo-id="R_kgDOL70VcQ"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOL70Vcc4CfX8G" 
+    data-mapping="pathname" 
+    data-strict="0"
+    data-reactions-enabled="1" 
+    data-emit-metadata="0" 
+    data-input-position="top" 
+    ata-theme="light_tritanopia"
+    data-lang="zh-CN" 
+    data-loading="lazy" 
+    crossorigin="anonymous" async>
+  </script>
+</div>
