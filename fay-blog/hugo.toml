@@ -78,6 +78,7 @@ weight = 4
     avatar = 'mm' 
     placeholder = '说点什么吧...'
     visitor = true
+    serverURLs = 'https://3n8ddihv.api.lncldglobal.com'
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
