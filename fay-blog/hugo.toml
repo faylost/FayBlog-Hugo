@@ -69,14 +69,14 @@ weight = 4
   show_updated = true # default
   showReadTime = true # default
 
-  [Params.valine]
-    enable = true
-    appId = '3n8dDIhV2msj8InpcaPDH6DD-MdYXbMMI'
-    appKey = 'dzvRSSSAUgHWUhIwGhyAjf8t'
-    avatar = 'mm' 
-    placeholder = '说点什么吧...'
-    visitor = true
-    serverURLs = 'https://3n8ddihv.api.lncldglobal.com'
+[Params.valine]
+  enable = true
+  appId = '3n8dDIhV2msj8InpcaPDH6DD-MdYXbMMI'
+  appKey = 'dzvRSSSAUgHWUhIwGhyAjf8t'
+  avatar = 'mm' 
+  placeholder = '说点什么吧...'
+  visitor = true
+  serverURLs = 'https://3n8ddihv.api.lncldglobal.com'
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
